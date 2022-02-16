@@ -109,7 +109,7 @@ namespace _2ora {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/QuizApp;component/questionwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/QuizApp;V1.0.0.0;component/questionwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\QuestionWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

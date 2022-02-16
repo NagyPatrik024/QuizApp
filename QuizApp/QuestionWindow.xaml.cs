@@ -28,7 +28,7 @@ namespace _2ora
             this.q = q;
             rnd = new Random();
             timer = new DispatcherTimer();
-            time = TimeSpan.FromSeconds(60);
+            time = TimeSpan.FromSeconds(59);
 
             timer = new DispatcherTimer(new TimeSpan(0, 0, 1), DispatcherPriority.Normal, delegate
             {
